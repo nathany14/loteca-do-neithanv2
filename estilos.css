@@ -1,9 +1,14 @@
+* {
+    margin:0;
+}
+
 h1 {
     font-size: 6em;
-    color: #ff0000;
+    color: #ffd000ec;
     font-family: serif;
     font-style: italic;
     text-align: center;
+    margin: 50px 0;
 }
 
 .inputs{
@@ -19,5 +24,21 @@ input{
     font-size: 2em;
     padding: 0;
     font-weight: bold;
-    border: blue solid 2px;
+    border:rgb(230, 199, 61) solid 2px;
+}
+
+.centerdiv{
+    text-align: center;
+    margin: 30px;
+}
+
+.principal{
+    height: calc(100vh - 211px - 118px);
+}
+
+footer{
+    background-color:rgb(230, 199, 61);
+    color:#000000ec;
+    padding: 50px;
+    margin: 0px;
 }
